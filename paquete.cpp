@@ -1,8 +1,10 @@
-#include <iostream>
-
-using namespace std;
-
-int main(){
-    cout<<"Por fin funciona esta M****";
-
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{   
+    int num;
+    printf("Ingrese un entero:");
+    scanf("%d", &num);
+    printf("Se ingreso un %d\n",num);
+    return 0;  
+    
 }
